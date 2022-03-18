@@ -1,0 +1,36 @@
+.footer {
+  background: linear-gradient(134deg, rgb(106, 152, 240) 0%, rgb(73, 97, 220) 99%);
+  width: 100%;
+  margin-top: 100px;
+  padding: 10px auto;
+
+
+  &__logo {
+    svg{
+      width: 35px;
+      height: 35px;
+      color: #C7D0FF;
+    }
+
+    &:hover svg {
+      color: rgb(56, 56, 56);
+    }
+  }
+
+  &__text {
+    font-size: 1rem;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 0;
+
+    a{
+      color: #fff;
+      transition: all 0.1s ease;
+
+      &:hover{
+        color: rgb(56, 56, 56);
+        text-decoration: none;
+      }
+    }
+  }
+}
